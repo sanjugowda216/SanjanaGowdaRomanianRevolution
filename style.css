@@ -1,0 +1,107 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+.section {
+    padding: 60px 20px;
+    height: 100vh;
+    color: #333;
+}
+
+#home {
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+
+
+/* Title and Subtitle in Home */
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+/* Alternating sections (text and image layout) */
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.content-wrapper.reverse {
+    flex-direction: row-reverse;
+}
+
+.text {
+    width: 45%;
+    padding: 20px;
+}
+
+.image {
+    width: 45%;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
