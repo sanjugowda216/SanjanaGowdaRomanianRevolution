@@ -15,7 +15,7 @@ body {
 .navbar {
     position: sticky;
     top: 0;
-    background-color: #333;
+    background-color: #560808;
     padding: 10px;
     z-index: 1000;
 }
@@ -35,39 +35,74 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+    transition: font-size 0.3s ease;
 }
+
+
 
 .navbar ul li a:hover {
-    text-decoration: underline;
+    font-size: 18px; 
 }
 
-/* Section styling */
 .section {
     padding: 60px 20px;
     height: 100vh;
     color: #333;
 }
 
+
 #home {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #eee2d1;
     height: 100%;
+}
+#leadership{
+    background-color: #625f5a;
+}
+#leadership p{
+    color: #eee2d1;
+    font-weight: bold;
+
+}
+#pre1989{
+    background-color: #eee2d1;
+}
+#pre1989 p{
+    color: #625f5a;
+    font-weight: bold;
+
+}
+#revolution{
+    background-color: #625f5a;
+}
+#revolution p{
+    color: #eee2d1;
+    font-weight: bold;
+
+
+}
+
+#conclusion{
+    background-color:#eee2d1;
+}
+#conclusion p{
+    color: #625f5a;
+    font-weight: bold;
 }
 
 
-
-/* Title and Subtitle in Home */
 #home h1 {
     font-size: 3em;
     margin-bottom: 10px;
+    color: #560808;
+
 }
 
 #home h2 {
     font-size: 1.5em;
-    color: #555;
+    color: #560808;
 }
 
-/* Alternating sections (text and image layout) */
 .content-wrapper {
     display: flex;
     align-items: center;
@@ -87,6 +122,7 @@ body {
 .image {
     width: 45%;
     text-align: center;
+    transition: transform 0.3s ease;
 }
 
 .image img {
@@ -94,14 +130,24 @@ body {
     border-radius: 8px;
 }
 
+.image:hover {
+    transform: scale(1.1); 
+}
+
 /* Footer styling */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #625f5a;
     color: white;
 }
 
 h2{
     text-align: center;
+    color: #670808;
+    font-size: 25px;
+
+}
+p{
+    font-size: 16px;
 }
